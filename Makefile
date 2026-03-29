@@ -1,4 +1,5 @@
 setup:
+	cp -n .env.example .env
 	docker compose run --rm app make setup
 
 check-start:
