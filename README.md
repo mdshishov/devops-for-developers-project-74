@@ -26,4 +26,4 @@ make test
 ```
 
 ## Docker Hub
-[Docker Hub Image](https://hub.docker.com/r/mdshishov/devops-for-developers-project-74)
+Dockerhub-образ: [mdshishov/devops-for-developers-project-74](https://hub.docker.com/r/mdshishov/devops-for-developers-project-74)
