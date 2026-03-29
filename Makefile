@@ -1,6 +1,8 @@
-setup:
-	cp -n .env.example .env
+setup: setup-env
 	docker compose run --rm app make setup
+
+setup-env:
+	cp -n .env.example .env
 
 check-start:
 	docker compose up --abort-on-container-exit
